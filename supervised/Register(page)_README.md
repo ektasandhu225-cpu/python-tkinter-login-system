@@ -1,118 +1,93 @@
-# python-tkinter-login-system
-Student Registration and Login System using Python Tkinter and MySQL
-# 🎓 Student Registration and Login System
+# 🧑‍🎓 Student Registration System
 
-A simple **Student Registration and Login System** built using **Python, Tkinter GUI, and MySQL database**.  
-This project allows students to register their details and log in securely using their email and password.
+# 💻 Tech Stack
 
-It demonstrates how **Python GUI applications interact with a MySQL database for authentication systems.**
-
----
-
-## 📌 Features
-
-✔ Student Registration Form  
-✔ Login Authentication System  
-✔ GUI Interface using Tkinter  
-✔ MySQL Database Integration  
-✔ Input Validation for Empty Fields  
-✔ Success and Error Message Alerts  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge\&logo=mysql\&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge\&logo=github\&logoColor=white)
 
 ---
 
-##  Technologies Used
+# 🚀 Project Overview
 
-| Technology | Purpose |
-| Python | Core programming language |
-| Tkinter | GUI design |
-| MySQL | Database storage |
-| mysql-connector-python | Database connection |
+This project is a **GUI-based Student Registration and Login System** built using **Python Tkinter and MySQL**.
+
+The application allows users to:
+
+* Register student accounts
+* Store user data in a MySQL database
+* Authenticate login credentials
+
+It demonstrates **basic database connectivity and GUI development in Python.**
 
 ---
 
-## 📂 Project Structure
-python-tkinter-login-system
+# ✨ Features
+
+* Student registration form
+* Login authentication
+* GUI interface using Tkinter
+* MySQL database integration
+* Error handling and message alerts
+
+---
+
+# 📂 Project Structure
+
+```
+student-registration-system/
 │
-├── Register(page).ipynb # Main Jupyter notebook code
-├── README.md # Project documentation
-├── LICENSE
-└── .gitignore
-
+├── student_registration_system.py
+└── README.md
+```
 
 ---
 
-## ⚙ Installation
+# ⚙️ Database Setup
 
-Install required Python library:
-pip install mysql-connector-python
+Run the following SQL commands:
 
-
----
-
-## 🗄 Database Setup
-
-1️⃣ Open **MySQL / phpMyAdmin**
-
-2️⃣ Create Database
+```
 CREATE DATABASE student_db;
 
+USE student_db;
 
-3️⃣ Create Table
-CREATE TABLE ekta (
-id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(100),
-email VARCHAR(100),
-phone VARCHAR(15),
-password VARCHAR(100)
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100)
 );
-
-
-
-## ▶ How to Run the Project
-
-1️⃣ Install Python  
-2️⃣ Install required library:  
-pip install mysql-connector-python
-
-3️⃣ Start MySQL server  
-4️⃣ Run the Jupyter Notebook
-Register(page).ipynb
-
-5️⃣ Use the GUI interface to register and login.
+```
 
 ---
 
-## 💡 How the System Works
+# ▶️ Run the Application
 
-### Registration
-- User enters **Name, Email, Phone, Password**
-- Data is stored in the MySQL database
+```
+python student_registration_system.py
+```
 
-### Login
-- User enters **Email and Password**
-- System verifies credentials
-- If correct → Displays user name and phone
-- If incorrect → Shows error message
+Make sure:
 
----
-
-## 🚀 Future Improvements
-
-- Password Encryption
-- Email Verification
-- Better UI Design
-- Student Dashboard
-- Admin Panel
+* MySQL server is running
+* Database credentials in the script match your system
 
 ---
 
-## 👩‍💻 Author
+# 🎯 Learning Goals
 
-**Ekta Sandhu**
+This project demonstrates:
 
+* GUI development with Tkinter
+* MySQL database integration
+* Basic authentication logic
+* Form handling in Python
 
+---
 
+# 📜 License
 
-
-
+This project is open-source and available under the MIT License.
 
