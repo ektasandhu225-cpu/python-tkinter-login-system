@@ -1,100 +1,88 @@
-# 🚗 Car Model Prediction (Supervised Machine Learning)
+# 🚗 Used Cars Data Analysis
 
-🐍 **Programming Language:** Python  
-📓 **Environment:** Jupyter Notebook  
-🤖 **Machine Learning Type:** Supervised Learning  
-📊 **Libraries Used:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
--
+# 💻 Tech Stack
 
-## 📌 Project Description
-
-This project demonstrates a **Supervised Machine Learning model** built using **Python and Jupyter Notebook** to analyze car-related data and make predictions.
-
-The notebook walks through the **complete Machine Learning workflow**, including:
-
-- Data loading
-- Data preprocessing
-- Model training
-- Model evaluation
-- Prediction of results
-
-This project helps in understanding how **supervised learning algorithms** can be applied to real-world datasets.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge\&logo=anaconda\&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge\&logo=pandas\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge\&logo=Matplotlib\&logoColor=black)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge\&logo=numpy\&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge\&logo=github\&logoColor=white)
 
 ---
 
-## 🧠 Machine Learning Type
+# 🚀 Project Overview
 
-**Supervised Learning**
+This project performs **Exploratory Data Analysis (EDA)** on a dataset of used cars.
 
-Supervised learning is a machine learning approach where the model learns from **labeled data**.  
-The algorithm is trained using input data along with the correct output values.
+The analysis focuses on understanding:
 
-Example tasks include:
+* price distribution
+* car age trends
+* brand-level insights
+* mileage patterns
+* feature relationships
 
-- Classification
-- Regression
-- Prediction models
-
----
-
-## 📂 Files Included
-
-| File Name | Description |
-|-----------|-------------|
-| `car model.ipynb` | Main notebook containing the machine learning implementation |
-| `Register(page).ipynb` | Registration page interface used in the project |
+The project demonstrates how **Python data analysis libraries can be used to clean, transform, and visualize real-world datasets.**
 
 ---
 
-## 🛠 Technologies Used
+# 📊 Features
 
-The following tools and libraries are used in this project:
-
-- 🐍 **Python**
-- 📓 **Jupyter Notebook**
-- 📊 **Pandas** – Data manipulation and analysis
-- 🔢 **NumPy** – Numerical computations
-- 🤖 **Scikit-learn** – Machine learning algorithms
-- 📈 **Matplotlib / Seaborn** – Data visualization
+* Dataset inspection and cleaning
+* Missing value analysis
+* Feature engineering (Car Age)
+* Brand and model extraction
+* Log transformation for skewed variables
+* Data visualization using Matplotlib & Seaborn
+* Pairplot analysis for feature relationships
 
 ---
 
-## ⚙️ Project Workflow
+# 📂 Project Structure
 
-The machine learning pipeline follows these steps:
+```
+used-cars-data-analysis/
+│
+├── used_cars_analysis.py
+├── used_cars_data.csv
+├── requirements.txt
+└── README.md
+```
 
-### 1️⃣ Import Libraries
-All necessary libraries are imported to perform data analysis and machine learning tasks.
+---
 
-### 2️⃣ Load Dataset
-The dataset is loaded into the notebook using **Pandas**.
+# ⚙️ Installation
 
-### 3️⃣ Data Preprocessing
-Before training the model, the data is cleaned and prepared.  
-This may include:
+Install required libraries:
 
-- Handling missing values
-- Feature selection
-- Data transformation
+```
+pip install pandas numpy matplotlib seaborn
+```
 
-### 4️⃣ Model Training
-A supervised machine learning model is trained using the dataset.
+---
 
-### 5️⃣ Model Evaluation
-The model performance is evaluated to check how accurately it predicts results.
+# ▶️ Run the Project
 
-### 6️⃣ Prediction
-The trained model is used to generate predictions based on input data.
+```
+python used_cars_analysis.py
+```
 
-## ▶️ How to Run the Project
+---
 
-Follow these steps to run the notebook:
+# 📌 Learning Goals
 
-1. Install **Python**
-2. Install required libraries
-3. Open **Jupyter Notebook**
-4. Load the notebook file
-5. Run all cells sequentially
+This project was built to practice:
 
-Example command:
-pip install pandas numpy scikit-learn matplotlib seaborntice and academic submission.
+* Data cleaning
+* Exploratory data analysis
+* Data visualization
+* Feature engineering
+* Python data science workflow
+
+---
+
+# 📜 License
+
+This project is open-source and available under the MIT License.
+
