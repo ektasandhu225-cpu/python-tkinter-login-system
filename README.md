@@ -33,7 +33,7 @@ It demonstrates how **Python GUI applications interact with a MySQL database for
 ## 📂 Project Structure
 python-tkinter-login-system
 │
-├── authentication.ipynb # Main Jupyter notebook code
+├── Register(page).ipynb # Main Jupyter notebook code
 ├── README.md # Project documentation
 ├── LICENSE
 └── .gitignore
@@ -76,7 +76,7 @@ pip install mysql-connector-python
 
 3️⃣ Start MySQL server  
 4️⃣ Run the Jupyter Notebook
-authentication.ipynb
+Register(page).ipynb
 
 5️⃣ Use the GUI interface to register and login.
 
