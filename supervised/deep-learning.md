@@ -1,107 +1,64 @@
-Deep Learning AI Project
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg" width="500"> </p>
-💻 Tech Stack
+# Deep Learning AI Project
 
+---
 
+# 💻 Tech Stack
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
+---
 
-
-
-
-Project Overview
+# Project Overview
 
 This project demonstrates a complete Deep Learning workflow from dataset collection to neural network training and result visualization.
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Machine_learning_workflow.svg" width="700"> </p>
+---
 
-The goal of this project is to show how machines can learn patterns from data and improve predictions over time.
+# What is Deep Learning
 
-What is Deep Learning
+Deep Learning is a branch of Artificial Intelligence where machines learn patterns from large datasets using neural networks.
 
-Deep Learning is a branch of Artificial Intelligence where machines learn patterns from large datasets using neural networks inspired by the human brain.
+---
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg" width="600"> </p>
+# Deep Learning Workflow
 
-Instead of manually writing rules, the model automatically learns patterns and relationships in data.
+Dataset Collection  
+↓  
+Data Preprocessing  
+↓  
+Neural Network Architecture  
+↓  
+Model Training  
+↓  
+Model Evaluation  
+↓  
+Result Visualization  
 
-Neural Network Concept
+---
 
-A neural network contains multiple layers that process information.
+# Features
 
-Input Layer → Hidden Layers → Output Layer
+• Complete deep learning workflow  
+• Neural network architecture explanation  
+• Graph based visualization  
+• Structured AI project design  
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/ArtificialNeuronModel_english.png" width="450"> </p>
+---
 
-Each neuron receives input, processes it, and sends the output to the next layer.
+# Future Scope
 
-Deep Learning Workflow
+• CNN Models  
+• Transformer Models  
+• Cloud AI Deployment  
+• Real-time AI systems  
 
-A typical deep learning pipeline follows these steps:
+---
 
-Dataset Collection
-↓
-Data Preprocessing
-↓
-Neural Network Architecture
-↓
-Model Training
-↓
-Model Evaluation
-↓
-Result Visualization
+# 📊 GitHub Stats
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neural_network_backpropagation.svg" width="700"> </p>
-Model Training Process
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ektasandhu225-cpu&show_icons=true&theme=dark)
 
-During training, the neural network learns by adjusting internal weights.
-
-Training Process:
-
-Training Data
-↓
-Forward Propagation
-↓
-Loss Calculation
-↓
-Backpropagation
-↓
-Weight Optimization
-
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gradient_descent.png" width="500"> </p>
-Graph Visualization
-
-Model performance is evaluated using graphs.
-
-Accuracy Graph
-
-Shows how prediction accuracy improves during training.
-
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Accuracy_and_loss.png" width="500"> </p>
-Loss Graph
-
-Shows how prediction error decreases as training progresses.
-
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Loss_function.svg" width="500"> </p>
-
-These visualizations help determine whether the model is learning properly or overfitting.
-
-Features
-
-• Complete deep learning workflow
-• Neural network architecture explanation
-• Graph based visualization
-• Structured AI project design
-
-Future Scope
-
-This project can be extended with advanced techniques such as:
-
-• Convolutional Neural Networks (CNNs)
-• Transformer Models
-• Cloud AI Deployment
-• Real-time AI systems
-
-Deep learning is evolving rapidly and is being used across industries like healthcare, finance, robotics, and autonomous vehicles.
-
-📊 GitHub Stats
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ektasandhu225-cpu&layout=compact&theme=dark) abh ismein jha jah images ki need hai vha images add kro
