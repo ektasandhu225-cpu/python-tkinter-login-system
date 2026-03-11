@@ -7,66 +7,82 @@
 
 
 </p>
-🧠 Deep Learning Concept (Visual Understanding)
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/1*XbuW8WuRrAY5p0qN2SxQAg.png" width="750"> </p>
+🧠 Deep Learning (Visual Understanding)
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Deep_learning.svg" width="650"> </p>
 
-Deep learning allows machines to learn patterns from data using neural networks.
+Deep Learning allows computers to learn patterns from large datasets using neural networks.
+Instead of manually writing rules, the system learns automatically from data.
 
-Instead of programming rules manually, the model learns automatically from datasets.
+🔄 Deep Learning Workflow
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neural_network_example.svg" width="700"> </p>
 
-🔄 Complete Deep Learning Pipeline
-<p align="center"> <img src="https://editor.analyticsvidhya.com/uploads/88501deep-learning-process.png" width="750"> </p>
+The workflow of building a deep learning system usually follows this pipeline:
 
-This pipeline visually shows the journey from dataset → trained AI model.
+📊 Dataset Collection
+🧹 Data Preprocessing
+🧠 Neural Network Training
+⚙️ Model Optimization
+📈 Performance Evaluation
 
 📊 Dataset Source
-<p align="center"> <img src="https://storage.googleapis.com/kaggle-media/General/kaggle-logo-transparent-300.png" width="250"> </p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png" width="260"> </p>
 
-Datasets used for training are collected from Kaggle, which provides thousands of datasets for machine learning and AI.
+Datasets used for training the model are collected from Kaggle, which provides thousands of machine learning datasets.
 
-Examples of datasets:
+Examples include:
 
 📷 Image datasets
 📊 Numerical datasets
 📝 Text datasets
 
+These datasets become the learning material for the neural network.
+
 🧠 Neural Network Architecture
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1200/1*bhFifratH9DjKqMBTeQG5A.png" width="650"> </p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg" width="650"> </p>
 
-Neural networks are made of three main layers:
+A neural network consists of three main layers:
 
-🔵 Input Layer
-🟡 Hidden Layers
-🔴 Output Layer
+🔵 Input Layer – receives dataset features
+🟡 Hidden Layers – process patterns in the data
+🔴 Output Layer – produces the final prediction
 
-These layers work together to identify patterns in the dataset.
+The model learns by adjusting connections between neurons.
 
 ⚙️ Model Training Process
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/1*0ZB8Yv4z2P3J3Zq9sH5z7A.png" width="750"> </p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Overfitting.svg" width="650"> </p>
 
 During training the model repeatedly:
 
-1️⃣ Receives dataset input
+1️⃣ Takes dataset input
 2️⃣ Generates predictions
 3️⃣ Calculates prediction error
-4️⃣ Adjusts internal weights
+4️⃣ Updates network weights
 
-This process allows the model to improve accuracy over time.
+Over time, the model learns patterns and improves its predictions.
 
-📈 Accuracy Graph (Model Performance)
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1100/1*J1tqZV7H0qH5X7ZtY7A2Ow.png" width="650"> </p>
+📈 Accuracy Visualization
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/ROC_space-2.png" width="600"> </p>
 
-Accuracy increases as the model learns patterns from the dataset.
+Accuracy graphs help visualize how well the model performs on data.
 
-📉 Loss Graph (Error Reduction)
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1100/1*JmZqX8qQ7a6Fv6I9z8h1JQ.png" width="650"> </p>
+Higher accuracy means the model is making more correct predictions.
 
-Loss decreases during training which means the model predictions become more accurate.
+📉 Loss Visualization
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Loss_function.svg" width="600"> </p>
+
+Loss represents prediction error.
+
+During successful training:
+
+✔ Loss decreases
+✔ Accuracy increases
+
+This indicates that the model is learning correctly.
 
 📂 Project Structure
 DeepLearningProject
 │
-├── Dataset
-├── Model Training
-├── Visualization Graphs
+├── dataset
+├── model-training
+├── visualization
 └── README.md
