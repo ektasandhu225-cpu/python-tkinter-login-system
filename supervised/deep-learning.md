@@ -16,9 +16,7 @@ Deep Learning allows computers to learn patterns from large datasets using neura
 Instead of manually writing rules, the system learns automatically from data.
 
 🔄 Deep Learning Workflow
-<p align="center">
-<img src="https://raw.githubusercontent.com/dair-ai/ML-YouTube-Courses/main/img/deep-learning-workflow.png" width="750">
-</p>
+![Deep Learning Workflow](https://miro.medium.com/v2/resize:fit:1400/1*R6r8bQn9G4Tq6Y8F1XkB5Q.png)
 
 The workflow of building a deep learning system usually follows this pipeline:
 
