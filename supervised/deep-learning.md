@@ -53,7 +53,9 @@ A neural network consists of three main layers:
 The model learns by adjusting connections between neurons.
 
 ⚙️ Model Training Process
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Overfitting.svg" width="650"> </p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ageron/handson-ml2/master/images/ann/training_curves_plot.png" width="650">
+</p>
 
 During training the model repeatedly:
 
