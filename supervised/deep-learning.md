@@ -61,4 +61,4 @@ Result Visualization
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ektasandhu225-cpu&show_icons=true&theme=dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ektasandhu225-cpu&layout=compact&theme=dark) abh ismein jha jah images ki need hai vha images add kro
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ektasandhu225-cpu&layout=compact&theme=dark) 
