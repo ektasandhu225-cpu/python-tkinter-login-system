@@ -65,8 +65,7 @@ During training the model repeatedly:
 Over time, the model learns patterns and improves its predictions.
 
 📈 Accuracy Visualization
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/ROC_space-2.png" width="600"> </p>
-
+![Accuracy Graph](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Logistic-curve.svg/800px-Logistic-curve.svg.png)
 Accuracy graphs help visualize how well the model performs on data.
 
 Higher accuracy means the model is making more correct predictions.
