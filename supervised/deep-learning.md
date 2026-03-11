@@ -17,7 +17,7 @@ Instead of manually writing rules, the system learns automatically from data.
 
 🔄 Deep Learning Workflow
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Deep_learning_process.png/800px-Deep_learning_process.png" width="750">
+<img src="https://raw.githubusercontent.com/dair-ai/ML-YouTube-Courses/main/img/deep-learning-workflow.png" width="750">
 </p>
 
 The workflow of building a deep learning system usually follows this pipeline:
