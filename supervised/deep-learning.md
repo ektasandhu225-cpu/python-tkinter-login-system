@@ -1,238 +1,107 @@
-# 💫 About Me
+Deep Learning AI Project
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg" width="500"> </p>
+💻 Tech Stack
 
-## Deep Learning AI Project
 
----
 
-## Project Overview
 
-This project demonstrates a complete **Deep Learning workflow**, from collecting datasets to training neural networks and visualizing results.
 
-The goal of this project is to provide a **beginner-friendly explanation of deep learning systems** while following a structure similar to real-world AI projects.
 
-The project focuses on:
 
-• Understanding neural networks  
-• Training models using real datasets  
-• Learning how machines detect patterns in data  
-• Visualizing model performance using graphs  
 
----
+Project Overview
 
-## What is Deep Learning
+This project demonstrates a complete Deep Learning workflow from dataset collection to neural network training and result visualization.
 
-Deep Learning is a branch of Artificial Intelligence and Machine Learning that allows computers to **learn patterns from large amounts of data using neural networks**.
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Machine_learning_workflow.svg" width="700"> </p>
 
-Instead of manually programming rules, deep learning systems automatically **discover patterns within the data**.
+The goal of this project is to show how machines can learn patterns from data and improve predictions over time.
 
-Deep learning is inspired by the **human brain**, where interconnected neurons process information and learn from experience.
+What is Deep Learning
 
----
+Deep Learning is a branch of Artificial Intelligence where machines learn patterns from large datasets using neural networks inspired by the human brain.
 
-## Example Applications
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg" width="600"> </p>
 
-Deep learning is widely used in many industries such as:
+Instead of manually writing rules, the model automatically learns patterns and relationships in data.
 
-• Image recognition  
-• Speech recognition  
-• Self-driving cars  
-• Financial forecasting  
-• Medical diagnosis  
+Neural Network Concept
 
-These systems learn from large datasets and improve their predictions over time.
-
----
-
-## Neural Network Concept
-
-A neural network consists of multiple layers that process data sequentially.
-
-Typical structure:
+A neural network contains multiple layers that process information.
 
 Input Layer → Hidden Layers → Output Layer
 
-Each neuron processes incoming data and passes it to the next layer, allowing the model to learn complex patterns.
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/ArtificialNeuronModel_english.png" width="450"> </p>
 
----
+Each neuron receives input, processes it, and sends the output to the next layer.
 
-## Deep Learning Workflow
+Deep Learning Workflow
 
-A typical deep learning project follows this pipeline:
+A typical deep learning pipeline follows these steps:
 
-Dataset Collection  
-↓  
-Data Preprocessing  
-↓  
-Neural Network Architecture  
-↓  
-Model Training  
-↓  
-Model Evaluation  
-↓  
-Result Visualization  
+Dataset Collection
+↓
+Data Preprocessing
+↓
+Neural Network Architecture
+↓
+Model Training
+↓
+Model Evaluation
+↓
+Result Visualization
 
----
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neural_network_backpropagation.svg" width="700"> </p>
+Model Training Process
 
-## Dataset Collection
+During training, the neural network learns by adjusting internal weights.
 
-Datasets are commonly obtained from platforms like **Kaggle**, which provide thousands of datasets for machine learning and data science.
+Training Process:
 
-Typical dataset organization:
+Training Data
+↓
+Forward Propagation
+↓
+Loss Calculation
+↓
+Backpropagation
+↓
+Weight Optimization
 
-Dataset  
-• Training Data  
-• Validation Data  
-• Testing Data  
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gradient_descent.png" width="500"> </p>
+Graph Visualization
 
----
+Model performance is evaluated using graphs.
 
-## Data Preprocessing
+Accuracy Graph
 
-Raw datasets must be prepared before training.
-
-Common preprocessing steps:
-
-• Removing noisy data  
-• Handling missing values  
-• Feature scaling  
-• Data normalization  
-• Train/Test split  
-
-Pipeline:
-
-Raw Data  
-↓  
-Data Cleaning  
-↓  
-Feature Engineering  
-↓  
-Train/Test Split  
-
----
-
-## Neural Network Architecture
-
-A neural network typically contains:
-
-• Input Layer  
-• Hidden Layers  
-• Activation Functions  
-• Output Layer  
-
-Architecture flow:
-
-Input Features  
-↓  
-Dense Layer  
-↓  
-Activation Layer  
-↓  
-Hidden Layers  
-↓  
-Output Prediction  
-
----
-
-## Model Training
-
-During training, the neural network adjusts internal weights to learn patterns.
-
-Training process:
-
-Training Data  
-↓  
-Forward Propagation  
-↓  
-Loss Calculation  
-↓  
-Backpropagation  
-↓  
-Weight Optimization  
-
-The model repeats this process for multiple **epochs** until optimal learning is achieved.
-
----
-
-## Graph Visualization
-
-Model performance is evaluated using visual graphs.
-
-Important graphs:
-
-Accuracy Graph  
 Shows how prediction accuracy improves during training.
 
-Loss Graph  
-Shows how prediction error decreases during training.
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Accuracy_and_loss.png" width="500"> </p>
+Loss Graph
 
----
+Shows how prediction error decreases as training progresses.
 
-## Project Structure
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Loss_function.svg" width="500"> </p>
 
-Typical project structure:
+These visualizations help determine whether the model is learning properly or overfitting.
 
-Deep Learning Project
+Features
 
-dataset  
-models  
-notebooks  
-visualizations  
-README.md  
+• Complete deep learning workflow
+• Neural network architecture explanation
+• Graph based visualization
+• Structured AI project design
 
----
+Future Scope
 
-## Features
+This project can be extended with advanced techniques such as:
 
-• Complete deep learning workflow  
-• Clear explanation of neural networks  
-• Visualization of training performance  
-• Structured project organization  
-• Beginner-friendly learning approach  
+• Convolutional Neural Networks (CNNs)
+• Transformer Models
+• Cloud AI Deployment
+• Real-time AI systems
 
----
+Deep learning is evolving rapidly and is being used across industries like healthcare, finance, robotics, and autonomous vehicles.
 
-## Learning Outcomes
-
-After studying this project, you will understand:
-
-• Fundamentals of deep learning  
-• Neural network architecture  
-• Data preprocessing techniques  
-• Model training workflow  
-• Performance evaluation using graphs  
-
----
-
-## Future Scope
-
-This project can be extended using:
-
-• Convolutional Neural Networks (CNNs)  
-• Transformer models  
-• Real-time AI systems  
-• Cloud AI deployment  
-• Web or mobile AI integration  
-
-Deep learning continues to evolve rapidly, creating new opportunities across industries.
-
----
-
-# 💻 Tech Stack
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-![Bash](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
----
-
-# 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ektasandhu225-cpu&show_icons=true&theme=dark)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=ektasandhu225-cpu&theme=dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ektasandhu225-cpu&layout=compact&theme=dark)
+📊 GitHub Stats
