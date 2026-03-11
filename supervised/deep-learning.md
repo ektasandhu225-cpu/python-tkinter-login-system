@@ -16,7 +16,9 @@ Deep Learning allows computers to learn patterns from large datasets using neura
 Instead of manually writing rules, the system learns automatically from data.
 
 🔄 Deep Learning Workflow
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neural_network_example.svg" width="700"> </p>
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Deep_learning_process.png/800px-Deep_learning_process.png" width="750">
+</p>
 
 The workflow of building a deep learning system usually follows this pipeline:
 
