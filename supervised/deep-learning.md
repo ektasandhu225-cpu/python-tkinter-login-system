@@ -8,7 +8,9 @@
 
 </p>
 🧠 Deep Learning (Visual Understanding)
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Deep_learning.svg" width="650"> </p>
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Artificial_neural_network.svg" width="650">
+</p>
 
 Deep Learning allows computers to learn patterns from large datasets using neural networks.
 Instead of manually writing rules, the system learns automatically from data.
